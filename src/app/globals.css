@@ -74,3 +74,8 @@
   box-shadow: 0 0 30px rgba(74, 106, 118, 0.25);
 }
 
+/* Hide floating WhatsApp button when menu drawer is open */
+body.drawer-open .floating-whatsapp-container {
+  display: none !important;
+}
+

@@ -17,12 +17,14 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Prevent scroll when drawer is open
+  // Prevent scroll when drawer is open & toggle drawer-open class
   useEffect(() => {
     if (menuOpen) {
       document.body.style.overflow = "hidden";
+      document.body.classList.add("drawer-open");
     } else {
       document.body.style.overflow = "unset";
+      document.body.classList.remove("drawer-open");
     }
   }, [menuOpen]);
 
@@ -47,7 +49,7 @@ export default function Header() {
               : "bg-[#f2f6fa]/80 backdrop-blur-sm py-5 border-b border-slate-200/40"
           }`}
         >
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 flex justify-between items-center">
+          <div className="w-full px-6 sm:px-8 lg:px-10 flex justify-between items-center">
             {/* Left: Logo */}
             <Link href="/" className="flex items-center group">
               <div className="relative h-10 w-40 sm:w-48 sm:h-12">
@@ -88,14 +90,31 @@ export default function Header() {
               {/* Hamburger Button */}
               <button
                 onClick={() => setMenuOpen(!menuOpen)}
-                className="p-2.5 rounded-full bg-white hover:bg-slate-100 text-slate-900 border border-slate-200/80 shadow-sm transition-colors focus:outline-none flex items-center justify-center group"
+                className="relative w-11 h-11 rounded-2xl bg-white hover:bg-slate-50 text-slate-900 border border-slate-200/90 shadow-sm hover:shadow-md hover:border-red-400/50 transition-all duration-300 focus:outline-none flex flex-col items-center justify-center space-y-1.5 group cursor-pointer"
                 aria-label="Toggle Navigation Drawer"
               >
-                {menuOpen ? (
-                  <X className="w-5 h-5 text-red-600" />
-                ) : (
-                  <Menu className="w-5 h-5 group-hover:text-red-600 transition-colors" />
-                )}
+                {/* Modern Animated Hamburger Lines */}
+                <span
+                  className={`h-[2.5px] rounded-full transition-all duration-300 ${
+                    menuOpen
+                      ? "w-5 rotate-45 translate-y-[8px] bg-[#ff0015]"
+                      : "w-5 bg-slate-900 group-hover:w-4 group-hover:bg-[#ff0015]"
+                  }`}
+                />
+                <span
+                  className={`h-[2.5px] rounded-full transition-all duration-300 ${
+                    menuOpen
+                      ? "w-0 opacity-0"
+                      : "w-3 bg-[#ff0015] group-hover:w-5"
+                  }`}
+                />
+                <span
+                  className={`h-[2.5px] rounded-full transition-all duration-300 ${
+                    menuOpen
+                      ? "w-5 -rotate-45 -translate-y-[8px] bg-[#ff0015]"
+                      : "w-5 bg-slate-900 group-hover:w-3 group-hover:bg-[#ff0015]"
+                  }`}
+                />
               </button>
             </div>
           </div>
