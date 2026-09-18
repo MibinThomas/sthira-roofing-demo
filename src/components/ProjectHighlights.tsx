@@ -231,7 +231,7 @@ export default function ProjectHighlights() {
               <div className="pt-2 flex justify-between items-center">
                 <span className="text-xs text-slate-500 font-medium">Location: {selectedProject.location}</span>
                 <a
-                  href={`https://wa.me/919876543210?text=Hi%20Sthira%20Team%2C%20I%20am%20interested%20in%20building%20a%20project%20similar%20to%20${encodeURIComponent(selectedProject.title)}.`}
+                  href={`https://wa.me/919746737474?text=Hi%20Sthira%20Team%2C%20I%20am%20interested%20in%20building%20a%20project%20similar%20to%20${encodeURIComponent(selectedProject.title)}.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-3 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs uppercase tracking-wider flex items-center space-x-2 shadow-md"

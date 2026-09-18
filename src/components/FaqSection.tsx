@@ -96,7 +96,7 @@ export default function FaqSection() {
           </p>
           <div className="pt-2">
             <a
-              href="https://wa.me/919876543210?text=Hi%20Sthira%20Team%2C%20I%20have%20a%20specific%20question%20regarding%20my%20building%20project."
+              href="https://wa.me/919746737474?text=Hi%20Sthira%20Team%2C%20I%20have%20a%20specific%20question%20regarding%20my%20building%20project."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2.5 px-7 py-3.5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs uppercase tracking-wider shadow-lg shadow-emerald-600/25 transition-all"

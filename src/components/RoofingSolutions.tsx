@@ -176,7 +176,7 @@ export default function RoofingSolutions() {
               {/* Action Button */}
               <div className="pt-2">
                 <a
-                  href={`https://wa.me/919876543210?text=Hi%20Sthira%20Team%2C%20I%20am%20interested%20in%20${encodeURIComponent(current.title)}.`}
+                  href={`https://wa.me/919746737474?text=Hi%20Sthira%20Team%2C%20I%20am%20interested%20in%20${encodeURIComponent(current.title)}.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2.5 px-7 py-3.5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm uppercase tracking-wider shadow-lg shadow-emerald-600/25 transition-all duration-200"

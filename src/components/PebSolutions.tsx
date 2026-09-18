@@ -99,7 +99,7 @@ export default function PebSolutions() {
                 <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
                   <span className="text-xs text-slate-500 font-medium">Custom Engineering &amp; Erection</span>
                   <a
-                    href={`https://wa.me/919876543210?text=Hi%20Sthira%20Team%2C%20I%20am%20looking%20for%20a%20quote%20on%20${encodeURIComponent(cat.title)}.`}
+                    href={`https://wa.me/919746737474?text=Hi%20Sthira%20Team%2C%20I%20am%20looking%20for%20a%20quote%20on%20${encodeURIComponent(cat.title)}.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center space-x-1 text-xs font-bold text-red-600 hover:text-red-700 uppercase tracking-wider"

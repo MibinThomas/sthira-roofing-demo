@@ -32,7 +32,7 @@ export default function Footer() {
             </p>
             <div className="pt-2 flex items-center space-x-3">
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919746737474"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 rounded-full bg-white border border-slate-200 text-emerald-600 hover:bg-emerald-50 transition-colors shadow-sm"
@@ -41,7 +41,7 @@ export default function Footer() {
                 <MessageSquare className="w-4 h-4" />
               </a>
               <a
-                href="tel:+919876543210"
+                href="tel:+919746737474"
                 className="p-2.5 rounded-full bg-white border border-slate-200 text-red-600 hover:bg-red-50 transition-colors shadow-sm"
                 aria-label="Call Us"
               >
@@ -98,7 +98,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-red-600 flex-shrink-0" />
-                <span>+91 98765 43210</span>
+                <span>+91 97467 37474</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-slate-500 flex-shrink-0" />

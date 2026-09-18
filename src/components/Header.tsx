@@ -74,7 +74,7 @@ export default function Header() {
             <div className="flex items-center space-x-4 sm:space-x-6">
               {/* Connect Us Button */}
               <a
-                href="https://wa.me/919876543210?text=Hi%20Sthira%20Team%2C%20I%20would%20like%20to%20connect%20for%20a%20Roofing%2FPEB%20project."
+                href="https://wa.me/919746737474?text=Hi%20Sthira%20Team%2C%20I%20would%20like%20to%20connect%20for%20a%20Roofing%2FPEB%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center space-x-2 sm:space-x-2.5 transition-transform hover:scale-105"
@@ -177,12 +177,12 @@ export default function Header() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Phone className="w-4 h-4 text-red-600 flex-shrink-0" />
-                  <span>+91 98765 43210</span>
+                  <span>+91 97467 37474</span>
                 </div>
               </div>
 
               <a
-                href="https://wa.me/919876543210?text=Hi%20Sthira%20Team%2C%20I%20would%20like%20to%20connect."
+                href="https://wa.me/919746737474?text=Hi%20Sthira%20Team%2C%20I%20would%20like%20to%20connect."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full py-3.5 rounded-full bg-[#ff0015] hover:bg-red-700 text-white font-bold text-xs uppercase tracking-widest flex items-center justify-center space-x-2 shadow-lg shadow-red-500/25 transition-colors"

@@ -94,7 +94,7 @@ export default function WhyChooseUs() {
           </div>
 
           <a
-            href="https://wa.me/919876543210?text=Hi%20Sthira%20Team%2C%20I%20would%20like%20to%20consult%20on%20material%20specifications%20for%20my%20project."
+            href="https://wa.me/919746737474?text=Hi%20Sthira%20Team%2C%20I%20would%20like%20to%20consult%20on%20material%20specifications%20for%20my%20project."
             target="_blank"
             rel="noopener noreferrer"
             className="px-7 py-3.5 rounded-full bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs uppercase tracking-wider transition-colors shadow-md"

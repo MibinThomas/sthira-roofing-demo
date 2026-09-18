@@ -92,7 +92,7 @@ export default function Hero() {
             {/* Red Pill CTA Buttons */}
             <div className="flex items-center space-x-3 pt-1">
               <a
-                href="https://wa.me/919876543210?text=Hi%20Sthira%20Team%2C%20I%20would%20like%20to%20connect%20for%20a%20Roofing%2FPEB%20project."
+                href="https://wa.me/919746737474?text=Hi%20Sthira%20Team%2C%20I%20would%20like%20to%20connect%20for%20a%20Roofing%2FPEB%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 sm:flex-none inline-flex items-center justify-center px-7 sm:px-9 py-3.5 rounded-full bg-[#ff0015] hover:bg-red-700 text-white font-bold text-xs sm:text-sm tracking-widest uppercase shadow-lg shadow-red-500/25 transition-all duration-200 hover:scale-[1.02] active:scale-95 group text-center"

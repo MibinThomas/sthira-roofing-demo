@@ -55,7 +55,7 @@ export default function ContactCta() {
       `• Note: ${formData.message || "Please provide quotation & site inspection details."}`
     );
 
-    window.open(`https://wa.me/919876543210?text=${waPayload}`, "_blank");
+    window.open(`https://wa.me/919746737474?text=${waPayload}`, "_blank");
   };
 
   return (
@@ -88,7 +88,7 @@ export default function ContactCta() {
                 </div>
                 <div>
                   <div className="text-xs text-slate-500 font-medium">Phone / Direct Hotline</div>
-                  <div className="font-bold text-slate-900 text-base">+91 98765 43210</div>
+                  <div className="font-bold text-slate-900 text-base">+91 97467 37474</div>
                   <div className="text-xs text-slate-500">Mon - Sat: 8:30 AM - 6:30 PM</div>
                 </div>
               </div>
@@ -99,7 +99,7 @@ export default function ContactCta() {
                 </div>
                 <div>
                   <div className="text-xs text-slate-500 font-medium">WhatsApp Priority Line</div>
-                  <div className="font-bold text-emerald-600 text-base">+91 98765 43210</div>
+                  <div className="font-bold text-emerald-600 text-base">+91 97467 37474</div>
                   <div className="text-xs text-slate-500">Instant PDF Quotation &amp; Engineering Drawings</div>
                 </div>
               </div>
@@ -177,7 +177,7 @@ export default function ContactCta() {
                         id="phone-number-input"
                         type="tel"
                         required
-                        placeholder="e.g. 9876543210"
+                        placeholder="e.g. 9746737474"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         className="w-full p-3.5 rounded-[16px] bg-slate-50 border border-slate-200 text-slate-900 placeholder-slate-400 text-sm focus:border-red-500 focus:bg-white focus:outline-none transition-colors"
