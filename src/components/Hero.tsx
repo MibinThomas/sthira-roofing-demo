@@ -6,8 +6,22 @@ import { Headphones, ArrowRight, ShieldCheck, CheckCircle2, Sparkles } from "luc
 export default function Hero() {
   return (
     <section className="relative bg-[#f2f6fa] min-h-screen lg:h-screen pt-24 pb-12 sm:pt-28 sm:pb-16 lg:pt-28 lg:pb-12 overflow-hidden flex items-center justify-center">
-      {/* Background Architectural Steel Beam Graphic */}
+      {/* Background Architectural Steel Beam & Animated Video Layer */}
       <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+        {/* Ambient Animated Video Background */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover opacity-[0.18] mix-blend-multiply scale-105"
+        >
+          <source src="/images/video.mp4" type="video/mp4" />
+        </video>
+
+        {/* Light Overlay Gradient to protect legibility & maintain light design style */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#f2f6fa]/40 via-transparent to-[#f2f6fa]/60 pointer-events-none"></div>
+
         {/* Giant Diagonal Pinkish Steel I-Beam Watermark */}
         <div className="absolute -bottom-24 -left-32 w-[140%] h-[480px] sm:h-[600px] lg:h-[750px] origin-bottom-left -rotate-[18deg] opacity-[0.22] blur-[0.5px]">
           <svg
